@@ -10,8 +10,6 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: get the code
-        uses: action/checkout@v3
       - name: print the line
         run: echo "Good Mrng!!!"
       - name: print two lines
