@@ -16,3 +16,11 @@ jobs:
         run: |
             echo "Have a nice day!!!"
             echo "Thank you!!!"
+
+  deploy:
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: print these lines
+        run: echo "Do the needfull..."
+    
